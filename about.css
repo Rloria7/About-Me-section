@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');body{
+background: #242424;
+font-family: sans-serif;
+text-align: justify;
+}
+b{
+font-size: 50px;
+text-shadow: 5px 3px 5px #F08080;
+}
+#about{
+padding-top: 100px;
+padding-bottom: 100px;
+}
+#about img{
+position: absolute;
+left: -1px;
+top: 80px;
+width: 100%;
+}
+.fa-play{
+font-size: 100px;
+}
+#about .p-first{
+margin-bottom: 30px;
+}
+#about h2{
+font-family: 'Abril Fatface', cursive;
+margin-bottom: 50px;
+margin-top: 20px;
+letter-spacing: 1px;
+}
+#about .social-link-text{
+margin-top: 50px;
+margin-bottom: 25px;
+}
+#abot .about-link{
+padding-left: 0px;
+}
+#about .about-link li{
+display: inline-block;
+}
+#about .about-link li a i{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+line-height: 50px;
+text-align: center;
+border: 1px solid #F08080;
+font-size: 25px;
+margin-right: 10px;
+color: #F08080;
+transition: all .5s;
+}
+#about .about-link li a i:hover{
+color: #222222;
+background: #F08080;
+border-color: #F08080;
+transform: scale(1.4);
+transition: all .5s ease;
+}
+#about .about-img{
+position: relative;
+}
+#about img:hover{
+-webkit-filter: grayscale(100%);
+transform: scale(1.1);
+transition: all .5s ease;
+}
